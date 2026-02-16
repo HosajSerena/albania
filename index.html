@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaggi in Albania</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .intro {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .intro h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .destination {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .destination:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+        
+        .destination img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .destination-info {
+            padding: 20px;
+        }
+        
+        .destination-info h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .destination-info p {
+            color: #666;
+            font-size: 0.95em;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🇦🇱 Viaggi in Albania</h1>
+        <p>Scopri la magia dei Balcani</p>
+    </header>
+    
+    <div class="container">
+        <div class="intro">
+            <h2>Benvenuto in Albania</h2>
+            <p>L'Albania è una destinazione turistica affascinante, ricca di storia, cultura e bellezze naturali. 
+            Con le sue coste cristalline, montagne maestose e città ricche di tradizione, l'Albania offre 
+            un'esperienza indimenticabile ai viaggiatori in cerca di autenticità e avventura.</p>
+        </div>
+        
+        <div class="gallery">
+            <div class="destination">
+                <img src="https://images.unsplash.com/photo-1570394936231-e4bcc4c98e33?w=400&h=300&fit=crop" alt="Spiagge di Durrës">
+                <div class="destination-info">
+                    <h3>Spiagge di Durrës</h3>
+                    <p>La costa adriatica albanese offre spiagge sabbiose e acqua cristallina. Durrës è la principale 
+                    stazione balneare del paese, perfetta per relax e sport acquatici.</p>
+                </div>
+            </div>
+            
+            <div class="destination">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Tirana">
+                <div class="destination-info">
+                    <h3>Tirana</h3>
+                    <p>La capitale albanese è un mix affascinante di architettura moderna e storica. Scopri la 
+                    vibrante vita notturna, i musei e le piazze colorate della città.</p>
+                </div>
+            </div>
+            
+            <div class="destination">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Berat">
+                <div class="destination-info">
+                    <h3>Berat - Città Museo</h3>
+                    <p>Patrimonio dell'UNESCO, Berat è un'affascinante città costruita su una collina con case bianche 
+                    tradizionali. Un viaggio indietro nel tempo nella storia ottomana.</p>
+                </div>
+            </div>
+            
+            <div class="destination">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Lago Ohrid">
+                <div class="destination-info">
+                    <h3>Lago Ohrid</h3>
+                    <p>Uno dei laghi più antichi d'Europa, il Lago Ohrid offre paesaggi mozzafiato, acque tranquille 
+                    e villaggi pittoreschi sulle sponde.</p>
+                </div>
+            </div>
+            
+            <div class="destination">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Monti Accursed">
+                <div class="destination-info">
+                    <h3>Monti Accursed</h3>
+                    <p>I Maledetti Monti (Cursed Mountains) sono ideali per escursionisti e amanti della natura. 
+                    Strada Nazionale nella Valle di Valbona è uno dei percorsi più belli.</p>
+                </div>
+            </div>
+            
+            <div class="destination">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Riviera Albanese">
+                <div class="destination-info">
+                    <h3>Riviera Albanese</h3>
+                    <p>La spettacolare Riviera del sud offre spiagge selvagge, insenature nascoste e un mare 
+                    incredibilmente trasparente. Un paradiso ancora poco scoperto.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2026 Viaggi in Albania. Scopri le meraviglie dei Balcani. | Contatti: info@viaggialbania.it</p>
+    </footer>
+</body>
+</html>
